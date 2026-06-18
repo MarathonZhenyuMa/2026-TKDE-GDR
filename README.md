@@ -76,21 +76,6 @@ Returned `result` contains seven clustering metrics:
 [ACC, NMI, Purity, Precision, Recall, F-score, ARI]
 ```
 
-## Paper Parameter Settings
-
-The demo script uses the following settings.
-
-| Data set | Data file | h | m | BGDR r | CGDR r |
-|---|---|---:|---:|---:|---:|
-| MSRC_v1 | `MSRC_v1_data.mat` | 7 | 128 | 36 | 28 |
-| Dermatology | `Dermatology_data.mat` | 8 | 256 | 38 | 32 |
-| 100leaves | `100leaves_data.mat` | 10 | 1024 | 30 | 16 |
-| mnist4 | `mnist4_data.mat` | 10 | 1024 | 14 | 10 |
-| Digit4k | `Digit4k_data.mat` | 10 | 1024 | 40 | 40 |
-| Hdigit | `Hdigit_data.mat` | 12 | 4096 | 40 | 32 |
-| ALOI | `ALOI_data.mat` | 13 | 8192 | 8 | 8 |
-| MNIST | `MNIST6w_data.mat` | 8 | 256 | 32 | 38 |
-
 ## Citation
 
 If you find this code useful, please cite:
