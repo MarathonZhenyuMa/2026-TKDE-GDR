@@ -80,7 +80,7 @@ Returned `result` contains seven clustering metrics:
 
 The demo script uses the following settings.
 
-| Data set | Data file | h | m | BGDR k/r | CGDR k/r |
+| Data set | Data file | h | m | BGDR r | CGDR r |
 |---|---|---:|---:|---:|---:|
 | MSRC_v1 | `MSRC_v1_data.mat` | 7 | 128 | 36 | 28 |
 | Dermatology | `Dermatology_data.mat` | 8 | 256 | 38 | 32 |
