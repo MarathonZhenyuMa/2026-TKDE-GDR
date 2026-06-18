@@ -28,14 +28,6 @@ Each data file is expected to contain:
 - `X`: a `1 x V` cell array, where `X{v}` is the feature matrix of the `v`-th view
 - `label`: the ground-truth label vector, used only for evaluation
 
-## Requirements
-
-The code is written and tested with MATLAB.
-
-Recommended environment:
-
-- MATLAB R2024b or later
-- MATLAB functions used by the code include `ind2vec`, `svds`, and standard matrix operations. In some MATLAB versions, `ind2vec` is provided by the Deep Learning Toolbox / Neural Network Toolbox.
 
 ## Quick Start
 
