@@ -48,7 +48,7 @@ demo
 The script runs BGDR and CGDR on the included data sets using the parameter settings reported in the paper, and prints clustering metrics in the command window:
 
 ```text
-Dataset      Method  ACC     NMI     Purity  Time(s)
+Dataset      Method  ACC     NMI    Purity   Precision   Recall  F-score  ARI   Time(s)
 -----------------------------------------------------
 MSRC_v1      BGDR    ...
 MSRC_v1      CGDR    ...
@@ -98,12 +98,6 @@ The demo script uses the following settings.
 | Hdigit | `Hdigit_data.mat` | 12 | 4096 | 40 | 32 |
 | ALOI | `ALOI_data.mat` | 13 | 8192 | 8 | 8 |
 | MNIST | `MNIST6w_data.mat` | 8 | 256 | 32 | 38 |
-
-## Notes for GitHub Upload
-
-GitHub has a normal file size limit of 100 MB. The file `Data/MNIST6w_data.mat` and the archive `TKDE_GDR.zip` are larger than this limit. If you want to publish the full data package, use Git LFS or provide an external download link instead of committing these files directly.
-
-Please also make sure that all included data sets and paper files can be redistributed publicly.
 
 ## Citation
 
