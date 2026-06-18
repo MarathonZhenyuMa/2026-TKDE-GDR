@@ -1,4 +1,4 @@
-# BGDR&CGDR
+# BGDR & CGDR for Multi-View Clustering
 
 This repository contains the MATLAB implementation of the accepted paper:
 
