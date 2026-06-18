@@ -1,4 +1,4 @@
-# GDR
+# BGDR&CGDR
 
 This repository contains the MATLAB implementation of the accepted paper:
 
@@ -15,7 +15,7 @@ Both methods directly learn discrete cluster indicators from multi-view data and
 
 ```text
 .
-+-- main.m                  # Demo script for reproducing the paper settings
++-- demo.m                  # Demo script for reproducing the paper settings
 +-- MvC_BGDR.m              # Main function of BGDR
 +-- MvC_CGDR.m              # Main function of CGDR
 +-- Data/                   # Multi-view data sets in .mat format
